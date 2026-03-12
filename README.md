@@ -1,2 +1,2 @@
-# strpool
-String interning in Zig
+# utilz
+Utilities library for Zig.
