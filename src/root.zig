@@ -1,6 +1,7 @@
-const std = @import("std");
-const StrPool = @import("strings/StrPool.zig");
-const Stack = @import("containers/Stack.zig");
+pub const StrPool = @import("strings/StrPool.zig");
+pub const Deque = @import("containers/Deque.zig");
+pub const Stack = @import("containers/Stack.zig");
+pub const GapBuffer = @import("strings/GapBuffer.zig");
 
 test "All" {
     _ = @import("strings/StrPool.zig");
